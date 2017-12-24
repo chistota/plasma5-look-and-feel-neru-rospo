@@ -1,0 +1,29 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=NeruDark
+
+[kdeglobals][Icons]
+Theme=neru-classic-dark
+
+[plasmarc][Theme]
+name=neru-rospo-dark-desktop
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+#Ссылка на тему 
+[kwinrc][DesktopSwitcher]
+LayoutName=org.kde.neru-rospo-dark.desktop
+
+#Привязка верхней панели 
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__NeruAuroraeDark
+
+#Привязка стиля графического элемента 
+[kdeglobals][KDE] 
+widgetStyle=QtCurve
+
+
